@@ -2,18 +2,5 @@
 
 
 
+Documentation 
 
-
-**Syntax**
-
-
-
-Class
-
-
-
-Access modifier class className
-
-{
-
-}
