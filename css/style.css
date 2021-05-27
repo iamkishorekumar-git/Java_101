@@ -75,6 +75,14 @@ h6 a {
     text-decoration: none !important;
 }
 
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    font-family: monospace;
+    vertical-align: baseline;
+
+  }
+  
 p {
     font-size: 15px;
     font-weight: 400;
