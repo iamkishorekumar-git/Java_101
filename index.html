@@ -117,6 +117,7 @@
                             <li><a href="#line4">Operators </a></li>
                             <li><a href="#line5">Conditional Statement </a></li>
                             <li><a href="#line6">Looping Statement </a></li>
+                            <li><a href="#line7">String Methods</a></li>
                       
                         </ul>
                     </nav >
@@ -620,7 +621,7 @@
                               </pre>
 
                               
-                              <div class="alert alert-success" role="alert">
+                              <!-- <div class="alert alert-success" role="alert">
                                 <h4 class="alert-heading">Well done!</h4>
                                 <p>
 
@@ -632,7 +633,7 @@
                                 <hr>
                                 <p>Happy Learning</p>
                                 
-                              </div>
+                              </div> -->
                    
 
                         </div>
@@ -641,6 +642,155 @@
 
                      
                 </section>
+
+            </section>
+
+            <section id="line7" class="section">
+                <div class="row">
+                    <div class="col-md-12 left-align">
+                        <h2 class="dark-text">String Methods<hr></h2>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+               
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-info" role="alert">
+                            Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable(cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created. 
+                          </div>
+                       
+                        <p>The String class has a set of built-in methods that you can use on strings.</p>
+
+                        <h4>equals()</h4>
+
+                        <p>Compares two strings. Returns true if the strings are equal, and false if not</p>
+
+                        <p>Return - Boolean</p>
+                        
+
+                        <pre class="brush: html">
+                            String myStr1 = "Hello";
+                            String myStr2 = "Hello";
+                            String myStr3 = "Another String";
+                            System.out.println(myStr1.equals(myStr2)); // Returns true because they are equal
+                            System.out.println(myStr1.equals(myStr3)); // false
+                        </pre>
+                        <h4>length()</h4>
+                        <p>	Returns the length of a specified string</p>
+                        <p>Return - int</p>
+                        <pre class="brush: html">
+
+                            String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                            System.out.println(txt.length());
+                          </pre>
+                     
+                          </dl>
+
+                          <h4>charAt()</h4>
+
+                          <ul>
+                              <li>
+                                <li>Returns the character at the specified index (position)</li>
+                                <p>Return - char</p>
+                              </li>
+                          </ul>
+
+                          <pre class="brush: html">
+                            String myStr = "Hello";
+                            char result = myStr.charAt(0);
+                            System.out.println(result);
+                          </pre>
+
+                          <h4>toUpperCase()</h4>
+
+                          <ul>
+                              <li>
+                                <li>Converts a string to upper case letters</li>
+                                <p>Return - String</p>
+                           
+                              </li>
+                          </ul>
+
+                          <pre class="brush: html">
+
+                            String txt = "Hello World";
+                            System.out.println(txt.toUpperCase());
+                            System.out.println(txt.toLowerCase());
+                          </pre>
+
+                          <h4>substring()</h4>
+
+                          <ul>
+                              <li>
+                                <li>Extracts the characters from a string, beginning at a specified start position, and through the specified number of character</li>
+                                <p>Return - String</p>
+                           
+                              </li>
+                          </ul>
+
+                          <pre class="brush: html">
+
+                            String txt = "Hello World";
+                            String txt1 = txt.substring(3,5)
+                          </pre>
+
+                          <h4>replace()</h4>
+
+                          <ul>
+                              <li>
+                                <li>Searches a string for a specified value, and returns a new string where the specified values are replaced</li>
+                                <p>Return - String</p>
+                           
+                              </li>
+                          </ul>
+                          
+                          <pre class="brush: html">
+
+                            String myStr = "Hello";
+                            System.out.println(myStr.replace('l', 'p'));
+                          </pre>
+                          <h4>isEmpty()</h4>
+
+                          <ul>
+                              <li>
+                                <li>Checks whether a string is empty or not</li>
+                                <p>Return - Boolean</p>
+                           
+                              </li>
+                          </ul>
+                          
+                          <pre class="brush: html">
+
+                            String myStr1 = "Hello";
+                            String myStr2 = "";
+                            System.out.println(myStr1.isEmpty());
+                            System.out.println(myStr2.isEmpty());
+                          </pre>
+
+                          
+                          <div class="alert alert-success" role="alert">
+                            <h4 class="alert-heading">Well done!</h4>
+                            <p>
+
+                            Awww yeah !!, Successfully reached to the end of the section
+                            "
+                            Try to learn something about everything and everything about something
+                            "
+                            </p>
+                            <hr>
+                            <p>Happy Learning</p>
+                            
+                          </div>
+               
+
+                    </div>
+
+                </div> 
+
+                 
+            </section>
 
                 
                 </div>
