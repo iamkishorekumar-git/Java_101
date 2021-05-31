@@ -766,51 +766,36 @@
                           </div>
                        
                         <h3>
-                            Create a Method
+                            Create a static Method
                         </h3>
-                        
+                        <p>A method must be declared within a class. It is defined with the name of the method, followed by parentheses ().</p>
 
-                   
-                        <h4>If Else Statement</h4>
-
-                        <p>The if statement evaluates the test expression inside the parenthesis ().</p>
-                        <ul>
-                            <li><p>If the test expression is evaluated to true, statements inside the body of if are executed.</p></li>
-                            <li><p>If the test expression is evaluated to false, statements inside the body of if are not executed.</p></li>
-                        </ul>
 
                         <pre class="brush: html">
 
-                          if(a > b)
-                          {
-                              ------
-                              ------
-                          }
-                          else
-                          {
-                             ------
-                             ------
+                            public class Main {
+                                static void myMethod() {
+                                  // code to be executed
+                                }
+                              }
                           }
                         </pre>
-                        <h4>Else If Statement</h4>
-                        <p>Use the else if statement to specify a new condition if the first condition is false.</p>
+                        <h4>Call a Method</h4>
+                        <p>To call a method in Java, write the method's name followed by two parentheses () and a semicolon;</p>
                         <pre class="brush: html">
 
-                            if(a > b)
-                            {
-                                ------
-                                ------
-                            }
-                            else if(a == b)
-                            {
-                                ------
-                                ------
-                            }
-                            else
-                            {
-                               ------
-                               ------
-                            }
+                            public class Main {
+                                static void myMethod() {
+                                  System.out.println("I just got executed!");
+                                }
+                              
+                                public static void main(String[] args) 
+                                {
+                                  Main.myMethod()
+
+                                }
+                              }
+                              
                           </pre>
                      
                           </dl>
