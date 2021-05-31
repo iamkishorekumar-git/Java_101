@@ -800,28 +800,34 @@
                      
                           </dl>
 
-                          <h4>Switch Statement</h4>
+                          <h4>Parameters and Arguments</h4>
 
                           <ul>
                               <li>
-                                <li>The switch expression is evaluated once</li>
-                            <li>The value of the expression is compared with the values of each case.</li>
-                               <li>If there is a match, the associated block of code is executed.</li>
+                                <li>Information can be passed to methods as parameter. Parameters act as variables inside the method.</li>
+                            <li>Parameters are specified after the method name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.</li>
+           i>
                               </li>
                           </ul>
 
                           <pre class="brush: html">
-                            switch(expression) {
-                                case x:
-                                  // code block
-                                  break;
-                                case y:
-                                  // code block
-                                  break;
-                                default:
-                                  // code block
+                            public class Main {
+                                static void myMethod(String fname) {
+                                  System.out.println(fname + " Refsnes");
+                                }
+                              
+                                public static void main(String[] args) {
+                                  myMethod("Liam");
+                                  myMethod("Jenny");
+                                  myMethod("Anja");
+                                }
                               }
+                              // Liam Refsnes
+                              // Jenny Refsnes
+                              // Anja Refsnes
                           </pre>
+
+                          <p>When a parameter is passed to the method, it is called an argument. So, from the example above: fname is a parameter, while Liam, Jenny and Anja are arguments.</p>
 
                     </div>
 
